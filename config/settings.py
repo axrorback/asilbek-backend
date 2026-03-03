@@ -27,12 +27,14 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','asil-backend-b4854d78d95a.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','asil-backend-b4854d78d95a.herokuapp.com','api.asilbek-karomatov.dev',]
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://localhost:63342',
-    'https://asil-backend-b4854d78d95a.herokuapp.com'
+    'https://asil-backend-b4854d78d95a.herokuapp.com',
+    'https://api.asilbek-karomatov.dev'
+    'https://asilbek-karomatov.dev/'
 ]
 
 # Application definition
