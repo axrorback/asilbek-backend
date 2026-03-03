@@ -25,13 +25,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','asil-backend-b4854d78d95a.herokuapp.com']
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://localhost:63342',
+    'https://asil-backend-b4854d78d95a.herokuapp.com'
 ]
 
 # Application definition
