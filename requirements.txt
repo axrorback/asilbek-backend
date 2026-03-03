@@ -11,10 +11,12 @@ djangorestframework==3.16.1
 djangorestframework-stubs==3.16.8
 dotenv==0.9.9
 drf-spectacular==0.29.0
+gunicorn==25.1.0
 idna==3.11
 inflection==0.5.1
 jsonschema==4.26.0
 jsonschema-specifications==2025.9.1
+packaging==26.0
 pillow==12.1.1
 python-dotenv==1.2.1
 PyYAML==6.0.3
